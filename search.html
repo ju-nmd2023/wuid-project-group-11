@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/vinyl4ustyle.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <script src="./script/jscript.js" defer></script>
+    <title>Search</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="sitename">Vinyl4u</div>
+
+        <div class="siteplace">Search</div>
+        <div class="twoicons">
+          <a href="search.html"
+            ><div id="iconSearch" class="iconNav">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                width="36px"
+                height="36px"
+              ></svg></div
+          ></a>
+          <a href="cart.html"
+            ><div id="iconCart" class="iconNav">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                width="36px"
+                height="36px"
+              ></svg>
+            </div>
+          </a>
+        </div>
+
+        <ul class="nav-menu">
+          <li class="name2"><a href="index.html">Home</a></li>
+          <li class="name2"><a href="search.html">search</a></li>
+          <li class="name2"><a href="cart.html">Cart</a></li>
+          <li class="name2"><a href="about.html">About</a></li>
+          <li class="name2"><a href="about.html">Contact</a></li>
+        </ul>
+        <div class="menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <!-- The following 16 lines of code was adapted from https://www.w3schools.com/howto/howto_js_filter_lists.asp: 2023-11-16 -->
+    <input
+      class="searchbox"
+      type="text"
+      id="myInput"
+      onkeyup="myFunction()"
+      placeholder="Search for categories.."
+    />
+
+    <ul id="myUL">
+      <li><a href="rock.html">Rock</a></li>
+      <li><a href="Hip-hop.html">Hip-Hop</a></li>
+      <li><a href="jazz.html">Jazz</a></li>
+      <li><a href="classic.html">Classical</a></li>
+      <li><a href="jazz.html">Pop</a></li>
+    </ul>
+    <p class="cathead">Categories</p>
+    <div class="cat1">
+      <a href="rock.html">
+        <div class="recomendedcat">
+          <p class="Catigori">Rock</p>
+        </div></a
+      >
+      <div class="recomendedcat">
+        <p class="Catigori">Hip-Hop</p>
+      </div>
+      <div class="recomendedcat">
+        <p class="Catigori">Pop</p>
+      </div>
+      <div class="recomendedcat">
+        <p class="Catigori">Jazz</p>
+      </div>
+      <div class="recomendedcat">
+        <p class="Catigori">Classic</p>
+      </div>
+    </div>
+    <p><br><br><br></p>
+    <footer>
+      <section class="innerFooter">
+        <div class="footerLinks">
+          <a class="footerLinks" href="##"
+            ><h2 class="footerLinks">Vinyl4u</h2></a
+          >
+          <a class="footerLinks" href="index.html">Home</a>
+          <a class="footerLinks" href="search.html">Explore</a>
+        </div>
+        <div class="footerLinks">
+          <a class="footerLinks" href="##"
+            ><h2 class="footerLinks">Customer Care</h2></a
+          >
+          <a class="footerLinks" href="about.html">Contact Us</a>
+          <a class="footerLinks" href="about.html">About Us</a>
+        </div>
+        <!-- <div class="spacer"></div> -->
+        <div class="footerSocials">
+          <div id="iconIG" class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 10 10"
+              width="24px"
+              height="24px"
+            ></svg>
+          </div>
+          <div id="iconFB" class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24px"
+              height="24px"
+            ></svg>
+          </div>
+          <div id="iconSpotify" class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24px"
+              height="24px"
+            ></svg>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

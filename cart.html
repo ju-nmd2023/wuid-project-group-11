@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/vinyl4ustyle.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <script src="./script/jscript.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <!-- Values for the dropdown menu -->
+    <datalist id="11numbers">
+      <option value="1"></option>
+      <option value="2"></option>
+      <option value="3"></option>
+      <option value="4"></option>
+      <option value="5"></option>
+      <option value="6"></option>
+      <option value="7"></option>
+      <option value="8"></option>
+      <option value="9"></option>
+      <option value="10"></option>
+      <option value="11"></option>
+    </datalist>
+    <title>Vinyl4u</title>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="sitename">Vinyl4u</div>
+
+        <div class="siteplace">Cart</div>
+        <div class="twoicons">
+          <a href="search.html"
+            ><div id="iconSearch" class="iconNav">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                width="36px"
+                height="36px"
+              ></svg></div
+          ></a>
+          <a href="cart.html"
+            ><div id="iconCart" class="iconNav">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                width="36px"
+                height="36px"
+              ></svg>
+            </div>
+          </a>
+        </div>
+
+        <ul class="nav-menu">
+          <li class="name2"><a href="index.html">Home</a></li>
+          <li class="name2"><a href="search.html">search</a></li>
+          <li class="name2"><a href="cart.html">Cart</a></li>
+          <li class="name2"><a href="about.html">About</a></li>
+          <li class="name2"><a href="about.html">Contact</a></li>
+        </ul>
+        <div class="menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="cartContainer">
+      <div class="cartProduct">
+        <a href="acdc1.html"
+          ><div class="cartImage">
+            <img src="pics/bestofacdc.jpg" alt="" class="cart" /></div
+        ></a>
+        <div class="cartInfo">
+          <a href="acdc1.html" class="undecorated">
+            <h2 class="cart">Best of AC/DC</h2></a
+          >
+          <a href="rock.html" class="undecorated"
+            ><p class="cart">ACDC | 1989</p></a
+          >
+          <div class="cartActionContainer">
+            <!-- <input type="number" name="amount" id="amount" value="1"> -->
+            <p class="price PriceText">120 sek</p>
+            <input
+              type="number"
+              name="amount"
+              id="amount"
+              class="amount"
+              list="11numbers"
+              placeholder="1"
+            />
+            <button id="1" class="delete">
+              <div id="iconDelete" class="iconNav">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  height="24px"
+                  class="center"
+                ></svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="cartProduct">
+        <a href="acdc1.html"
+          ><div class="cartImage">
+            <img
+              src="pics/Black_Sabbath_-_Paranoid.jpg"
+              alt=""
+              class="cart"
+            /></div
+        ></a>
+        <div class="cartInfo">
+          <a href="acdc1.html" class="undecorated"
+            ><h2 class="cart">Paranoid</h2></a
+          >
+          <a href="acdc1.html" class="undecorated"
+            ><p class="cart">Black Sabbath | 1975</p></a
+          >
+          <div class="cartActionContainer">
+            <!-- <input type="number" name="amount" id="amount" value="1"> -->
+            <p class="price PriceText">169 sek</p>
+            <input
+              type="number"
+              name="amount"
+              id="amount"
+              class="amount"
+              list="11numbers"
+              placeholder="1"
+            />
+            <button id="1" class="delete">
+              <div id="iconDelete" class="iconNav">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  viewBox="0 0 24 24"
+                  width="24px"
+                  height="24px"
+                  class="center"
+                ></svg>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="checkoutButtonContainer">
+        <a href="payment.html"
+          ><button class="0left standard">Checkout</button></a
+        >
+
+        <h2 class="btnText">289 sek</h2>
+      </div>
+    </section>
+
+    <footer>
+      <section class="innerFooter">
+        <div class="footerLinks">
+          <a class="footerLinks" href="##"
+            ><h2 class="footerLinks">Vinyl4u</h2></a
+          >
+          <a class="footerLinks" href="index.html">Home</a>
+          <a class="footerLinks" href="search.html">Explore</a>
+        </div>
+        <div class="footerLinks">
+          <a class="footerLinks" href="##"
+            ><h2 class="footerLinks">Customer Care</h2></a
+          >
+          <a class="footerLinks" href="about.html">Contact Us</a>
+          <a class="footerLinks" href="about.html">About Us</a>
+        </div>
+        <!-- <div class="spacer"></div> -->
+        <div class="footerSocials">
+          <div id="iconIG" class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 10 10"
+              width="24px"
+              height="24px"
+            ></svg>
+          </div>
+          <div id="iconFB" class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24px"
+              height="24px"
+            ></svg>
+          </div>
+          <div id="iconSpotify" class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24px"
+              height="24px"
+            ></svg>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

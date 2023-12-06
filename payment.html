@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/vinyl4ustyle.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+    <script src="./script/jscript.js" defer></script>
+    <title>Payment</title>
+  </head>
+  <body class="Payment">
+    <header>
+      <nav class="navbar">
+        <a href="index.html"><div class="logo"></div></a>
+        <div class="sitename">Vinyl4u</div>
+
+        <div class="siteplace">Payment</div>
+        <div class="twoicons">
+          <a href="search.html"
+            ><div id="iconSearch" class="iconNav">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                width="36px"
+                height="36px"
+              ></svg></div
+          ></a>
+          <a href="cart.html"
+            ><div id="iconCart" class="iconNav">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 48 48"
+                width="36px"
+                height="36px"
+              ></svg>
+            </div>
+          </a>
+        </div>
+
+        <ul class="nav-menu">
+          <li class="name2"><a href="index.html">Home</a></li>
+          <li class="name2"><a href="search.html">search</a></li>
+          <li class="name2"><a href="cart.html">Cart</a></li>
+          <li class="name2"><a href="about.html">About</a></li>
+          <li class="name2"><a href="about.html">Contact</a></li>
+        </ul>
+        <div class="menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </div>
+      </nav>
+    </header>
+    <!-- The following  -->
+    <div class="row">
+      <div class="col-75">
+        <div class="container">
+          <form class="payform" action="/action_page.php">
+            <div class="row">
+              <div class="col-50">
+                <h3>Billing Address</h3>
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="First Name..."
+                />
+                <input
+                  type="text"
+                  id="fname"
+                  name="firstname"
+                  placeholder="Last Name..."
+                />
+                <input
+                  type="text"
+                  id="email"
+                  name="email"
+                  placeholder="Email..."
+                />
+                <input
+                  type="text"
+                  id="adr"
+                  name="address"
+                  placeholder="Adress..."
+                />
+
+                <div class="row">
+                  <div class="col-50">
+                    <input
+                      type="text"
+                      id="state"
+                      name="state"
+                      placeholder="State/city"
+                    />
+                  </div>
+                  <div class="col-50">
+                    <input type="text" id="zip" name="zip" placeholder="Zip" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-50">
+                <h3>Card</h3>
+                <input
+                  type="text"
+                  id="cname"
+                  name="cardname"
+                  placeholder="Name on the card"
+                />
+                <!-- <h3>Payment</h3>
+                <div class="paymentOptions">
+                  <input
+                    class="paymentOptions"
+                    type="checkbox"
+                    name="payment"
+                    id=""
+                  />
+                  <p class="paymentOptions">Swish</p>
+                  <input
+                    class="paymentOptions"
+                    type="checkbox"
+                    name="payment"
+                    id=""
+                  />
+                  <p class="paymentOptions">Card</p> -->
+                <input
+                  type="text"
+                  id="ccnum"
+                  name="cardnumber"
+                  placeholder="Card number"
+                />
+
+                <input
+                  type="text"
+                  id="expmonth"
+                  name="expmonth"
+                  placeholder="Exp month"
+                />
+
+                <div class="row">
+                  <div class="col-50">
+                    <input
+                      type="text"
+                      id="expyear"
+                      name="expyear"
+                      placeholder="Exp year"
+                    />
+                  </div>
+
+                  <div class="col-50">
+                    <input type="text" id="cvv" name="cvv" placeholder="cvv" />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <br /><br />
+            <a href="thanks.html" class="btn">place order and pay </a>
+          </form>
+        </div>
+      </div>
+
+      <div class="col-25">
+        <div class="container2">
+          <h4>
+            Cart
+            <span class="price" style="color: black">
+              <i class="fa fa-shopping-cart"></i>
+              <b>2</b>
+            </span>
+          </h4>
+          <p>
+            <a href="acdc1.html">Best of ac/dc</a>
+            <span class="price">120 sek</span>
+          </p>
+          <p><a href="#">Paranoid</a> <span class="price">169 sek</span></p>
+          <hr />
+          <p>
+            Total <span class="price" style="color: black"><b>289 sek</b></span>
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <section class="innerFooter">
+        <div class="footerLinks">
+          <a class="footerLinks" href="##"
+            ><h2 class="footerLinks">Vinyl4u</h2></a
+          >
+          <a class="footerLinks" href="index.html">Home</a>
+          <a class="footerLinks" href="search.html">Explore</a>
+        </div>
+        <div class="footerLinks">
+          <a class="footerLinks" href="##"
+            ><h2 class="footerLinks">Customer Care</h2></a
+          >
+          <a class="footerLinks" href="about.html">Contact Us</a>
+          <a class="footerLinks" href="about.html">About Us</a>
+        </div>
+        <!-- <div class="spacer"></div> -->
+        <div class="footerSocials">
+          <div id="iconIG" class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 10 10"
+              width="24px"
+              height="24px"
+            ></svg>
+          </div>
+          <div id="iconFB" class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24px"
+              height="24px"
+            ></svg>
+          </div>
+          <div id="iconSpotify" class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24px"
+              height="24px"
+            ></svg>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
