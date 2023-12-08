@@ -645,6 +645,7 @@ img.cart {
 .delete {
   width: 2rem;
   height: 2rem;
+  cursor: pointer;
 }
 
 h2.cart,
