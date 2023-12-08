@@ -95,6 +95,11 @@ a {
   border: solid white 1px;
   box-shadow: #040101 0px 2px;
   margin: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.recomendedcat:hover {
+  transform: scale(1.05);
 }
 .recomended {
   width: 82%;
@@ -305,7 +310,7 @@ h3 {
   margin: 0 -16px;
 }
 
-.col-25 {
+.itemList {
   -ms-flex: 25%; /* IE10 */
   flex: 25%;
 }
@@ -320,7 +325,7 @@ h3 {
   flex: 75%;
 }
 
-.col-25,
+.itemList,
 .col-50,
 .col-75 {
   padding: 0 16px;
@@ -761,7 +766,7 @@ button.cartButton:hover {
   .row {
     flex-direction: column-reverse;
   }
-  .col-25 {
+  .itemList {
     margin-bottom: 20px;
   }
 }
@@ -930,7 +935,7 @@ button.cartButton:hover {
     margin-top: 5vw;
     margin-left: 5vw;
     margin-bottom: 0;
-    font-size: 1.5vw;
+    font-size: 3vw;
     font-family: "Courier New", Courier, monospace;
   }
   .amountProduct {

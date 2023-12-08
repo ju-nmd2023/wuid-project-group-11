@@ -34,10 +34,11 @@ a {
 
 .herotxt {
   margin: auto;
-  padding-top: 80px;
-  width: 40%;
+  padding-top: 40px;
+  width: 60%;
   color: rgb(255, 255, 255);
-  text-shadow: rgb(255, 255, 255) 1rem 1rem 8rem;
+  text-shadow: rgba(0, 0, 0, 0.711) 1rem 1rem 8rem;
+  font-size: 3.2vw;
 }
 .recomended {
   width: 82%;
@@ -62,6 +63,11 @@ a {
   border: solid white 1px;
   box-shadow: #040101 0px 2px;
   margin: auto;
+  transition: transform 0.3s ease-in-out;
+}
+
+.recomendedcat:hover {
+  transform: scale(1.05);
 }
 
 .catTextWrapper {
@@ -160,9 +166,9 @@ p.Catigori {
 
   .herotxt {
     margin: 0 auto;
-    padding-top: 70px;
-    width: 40%;
+    padding-top: 40px;
     color: rgb(255, 255, 255);
+    font-size: 4.9vw;
   }
   .recomended {
     width: 82%;
@@ -230,10 +236,10 @@ p.Catigori {
     padding: 8px;
   }
 
-.AlbumArtistPrice {
-  margin-top: 1px;
-  margin-bottom: 5px;
-}
+  .AlbumArtistPrice {
+    margin-top: 1px;
+    margin-bottom: 5px;
+  }
 }
 
 .RockGallery img {
@@ -263,10 +269,8 @@ p.Catigori {
   .herotxt {
     margin: 0 auto;
     padding-top: 47px;
-    width: 80%;
     color: rgb(255, 255, 255);
-    font-size: 25px;
-  
+    font-size: 5.5vw;
   }
   .recomended {
     width: 82%;
@@ -331,11 +335,10 @@ p.Catigori {
     height: auto;
   }
 
-.AlbumArtistPrice {
-  margin-top: 1px;
-  margin-bottom: 10px;
-  
-}
+  .AlbumArtistPrice {
+    margin-top: 1px;
+    margin-bottom: 10px;
+  }
 
   p.Catigori {
     padding-top: 6.8vw;
@@ -357,7 +360,3 @@ p.Catigori {
     font-size: 10px;
   }
 }
-
-
-
-
