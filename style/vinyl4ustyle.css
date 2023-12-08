@@ -746,11 +746,13 @@ button.standard {
   color: #000;
   font-size: 1.5rem;
   margin: auto;
+  cursor: pointer;
 }
 button.cartButton {
   padding: 0.3rem 1rem 0.3rem 1rem;
   color: #000;
   font-size: 2vw;
+  cursor: pointer;
 }
 
 button.standard:hover,
